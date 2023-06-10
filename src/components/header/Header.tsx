@@ -1,9 +1,10 @@
+import "./Header.scss";
+
 function Header() {
   return (
-    <header className="">
-      <h1>I-Market</h1>
-      <p>It&apos;s a site web where you can buy manga posters and wall art</p>
-      <hr />
+    <header className="header_container">
+      <h1 className="header_title">I-Market</h1>
+      <p>Manga posters and wall art</p>
     </header>
   );
 }

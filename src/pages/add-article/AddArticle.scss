@@ -1,0 +1,47 @@
+.addArticle_container {
+  margin: 20px;
+}
+
+.addArticle_title {
+  text-align: center;
+}
+
+.addArticle_form {
+  text-align: center;
+}
+
+.addArticle_fields_container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 30px;
+}
+
+.addArticle_fields_container label {
+  text-align: left;
+  font-size: 18px;
+}
+
+.addArticle_fields_container input {
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 100%;
+}
+
+.addArticle_categories {
+  margin-bottom: 80px;
+}
+
+.addArticle_create_button {
+  width: 200px;
+  height: 35px;
+  background-color: #4169E1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.addArticle_create_button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

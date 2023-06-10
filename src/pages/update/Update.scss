@@ -1,0 +1,36 @@
+.update_loading {
+  text-align: center;
+}
+
+.update_title {
+  text-align: center;
+}
+
+.update_container {
+  width: 600px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto 20px;
+}
+
+.update_container input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 100%;
+}
+
+.update_image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.update_categories {
+  height: 30px;
+}
+
+.update_button {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+}
