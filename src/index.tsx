@@ -6,25 +6,28 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Article from "./pages/article/Article";
 import AddArticle from "./pages/add-article/AddArticle";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
 import Update from "./pages/update/Update";
+import Authentication from "./pages/authentication/Authentication";
+import Cart from "./pages/cart/Cart";
+import UseContext from "./components/cartprovider/CartProvider";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Header />
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />}></Route>
-        <Route path="/article/:id" element={<Article />}></Route>
-        <Route path="/add-article" element={<AddArticle />}></Route>
-        <Route path="/update/:id" element={<Update />}></Route>
-      </Routes>
+      <UseContext>
+        <Routes>
+          <Route path="/" element={<App />}></Route>
+          <Route path="/article/:id" element={<Article />}></Route>
+          <Route path="/add-article" element={<AddArticle />}></Route>
+          <Route path="/update/:id" element={<Update />}></Route>
+          <Route path="/authentication" element={<Authentication />}></Route>
+          <Route path="/cart" element={<Cart />}></Route>
+        </Routes>
+      </UseContext>
     </BrowserRouter>
-    <Footer />
   </React.StrictMode>
 );
 

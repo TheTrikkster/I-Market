@@ -115,7 +115,6 @@ function Update() {
             setArticle((e: any) => ({ ...e, category: event.target.value }))
           }
         >
-          <option value="all categories">all categories</option>
           <option value="popular">popular</option>
           <option value="recent">recent</option>
           <option value="limited edition">limited edition</option>

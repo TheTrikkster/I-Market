@@ -1,9 +1,22 @@
 .footer_container {
+  height: 60px;
   background-color: #4169E1;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .footer_container h2 {
   margin: 0;
-  padding: 30px;
+  padding: 0px;
+}
+
+.footer_contact_logo {
+  width: 30px;
+}
+
+.footer_email {
+  text-decoration: none;
+  color: inherit;
 }

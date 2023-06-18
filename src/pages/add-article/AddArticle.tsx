@@ -31,7 +31,7 @@ function AddArticle() {
   const [name, setName] = useState("");
   const [date, setDate] = useState("");
   const [image, setImage] = useState("");
-  const [category, setCategory] = useState("all categories");
+  const [category, setCategory] = useState("popular");
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
@@ -79,7 +79,6 @@ function AddArticle() {
           value={category}
           onChange={(event) => setCategory(event.target.value)}
         >
-          <option value="all categories">all categories</option>
           <option value="popular">popular</option>
           <option value="recent">recent</option>
           <option value="limited edition">limited edition</option>

@@ -1,0 +1,20 @@
+.authentication_container {
+  text-align: center;
+}
+
+.authentication_form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.authentication_username {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.authentication_password{
+  width: 200px;
+  margin-bottom: 30px;
+}
